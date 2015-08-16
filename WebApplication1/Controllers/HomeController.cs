@@ -17,7 +17,7 @@ namespace WebApplication1.Controllers
 
             PopulateCategories(data, home);
             var test = home;
-            return View();
+            return View(home);
 
         }
 
